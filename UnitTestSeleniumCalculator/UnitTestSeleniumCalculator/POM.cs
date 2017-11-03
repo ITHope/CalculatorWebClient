@@ -8,7 +8,6 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.PhantomJS;
-using System;
 using OpenQA.Selenium.Opera;
 using OpenQA.Selenium.Safari;
 

@@ -10,10 +10,10 @@ using OpenQA.Selenium.Opera;
 using OpenQA.Selenium.Safari;
 using UnitTestSeleniumCalculator;
 
-namespace Partsunlimited.UITests
+namespace UnitTestSeleniumCalculator
 {
     //[TestClass]
-    //public class UnitTestSafari : UnitTest1
+    //public class NUnitTestSafari : UnitTest1
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -21,7 +21,7 @@ namespace Partsunlimited.UITests
     //    }
     //}
     [TestClass]
-    public class UnitTestChrome : UnitTest1
+    public class NUnitTestChrome : UnitTest1
     {
 
 
@@ -31,7 +31,7 @@ namespace Partsunlimited.UITests
         }
     }
     //[TestClass]
-    //public class UnitTestOpera : UnitTest1
+    //public class NUnitTestOpera : UnitTest1
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -41,7 +41,7 @@ namespace Partsunlimited.UITests
     //    }
     //}
     //[TestClass]
-    //public class UnitTestFirefox : UnitTest1
+    //public class NUnitTestFirefox : UnitTest1
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -55,7 +55,7 @@ namespace Partsunlimited.UITests
     //}
 
     //[TestClass]
-    //public class UnitTestPhantomJS : UnitTest1
+    //public class NUnitTestPhantomJS : UnitTest1
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -75,7 +75,7 @@ namespace Partsunlimited.UITests
             //if (driver == null)
                 driver = MakeDriver();
             obj = new POM(driver);
-            driver.Navigate().GoToUrl(@"E:\CSharpDev\Projects\Calculator\CalculatorJS\CalcJSBtns.html");
+            driver.Navigate().GoToUrl(@"C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorJS\CalcJSBtns.html");
         }
 
         //~UnitTest1()

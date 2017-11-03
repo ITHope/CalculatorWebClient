@@ -1,22 +1,18 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
+using OpenQA.Selenium.Remote;
+using OpenQA.Selenium.PhantomJS;
 
-namespace Partsunlimited.UITests
+namespace UnitTestSeleniumCalculator
 {
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using OpenQA.Selenium;
-    using OpenQA.Selenium.Chrome;
-    using OpenQA.Selenium.Firefox;
-    using OpenQA.Selenium.IE;
-    using OpenQA.Selenium.Remote;
-    using OpenQA.Selenium.PhantomJS;
-    using System;
-
-
     [TestClass]
     public class UnitTestCalc
     {
-        string baseURL = "file:///E:/CSharpDev/Projects/Calculator/CalculatorJS/CalculatorJS.html";
+        string baseURL = @"C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorJS\CalculatorJS.html";
         private RemoteWebDriver driver;
         public TestContext TestContext { get; set; }
        

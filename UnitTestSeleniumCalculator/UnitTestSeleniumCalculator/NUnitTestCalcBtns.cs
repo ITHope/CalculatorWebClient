@@ -9,12 +9,10 @@ using OpenQA.Selenium.Opera;
 using OpenQA.Selenium.Safari;
 using NUnit.Framework;
 
-
-
 namespace UnitTestSeleniumCalculator
 {
     //[TestFixture]
-    //public class UnitTestSafari : UnitTest1
+    //public class UnitTestSafari : NUnitUITests
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -22,7 +20,7 @@ namespace UnitTestSeleniumCalculator
     //    }
     //}
     [TestFixture]
-    public class UnitTestChrome : UnitTest1
+    public class UnitTestChrome : NUnitUITests
     {
         internal override IWebDriver MakeDriver()
         {
@@ -30,7 +28,7 @@ namespace UnitTestSeleniumCalculator
         }
     }
     //[TestFixture]
-    //public class UnitTestOpera : UnitTest1
+    //public class UnitTestOpera : NUnitUITests
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -40,7 +38,7 @@ namespace UnitTestSeleniumCalculator
     //    }
     //}
     //[TestFixture]
-    //public class UnitTestFirefox : UnitTest1
+    //public class UnitTestFirefox : NUnitUITests
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -54,7 +52,7 @@ namespace UnitTestSeleniumCalculator
     //}
 
     //[TestFixture]
-    //public class UnitTestPhantomJS : UnitTest1
+    //public class UnitTestPhantomJS : NUnitUITests
     //{
     //    internal override IWebDriver MakeDriver()
     //    {
@@ -64,13 +62,13 @@ namespace UnitTestSeleniumCalculator
 
 
     [TestFixture]
-    public abstract class UnitTest1
+    public abstract class NUnitUITests
     {
         internal abstract IWebDriver MakeDriver();
 
         //public static IWebDriver driver;
 
-        public UnitTest1()
+        public NUnitUITests()
         {
             driver = MakeDriver();
             obj = new POM(driver);

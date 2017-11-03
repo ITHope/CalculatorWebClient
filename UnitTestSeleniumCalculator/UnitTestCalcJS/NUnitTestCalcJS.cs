@@ -1,43 +1,43 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using JSTest;
 using JSTest.ScriptLibraries;
 
 namespace UnitTestCalcJS
 {
-    [TestClass]
-    public class UnitTestCalcJS
+    [TestFixture]
+    public class NUnitTestCalcJS
     {
         private readonly TestScript _commonTestScript = new TestScript();
 
-        [TestInitialize]
+        [Test]
         public void CommonJavaScriptTests()
         {
-            _commonTestScript.AppendFile("E:\\CSharpDev\\Projects\\Calculator\\CalculatorJS\\Calculator.js");
+            _commonTestScript.AppendFile(@"C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorJS\Calculator.js");
             _commonTestScript.AppendBlock(new JsAssertLibrary());
         }
 
         public TestContext TestContext { get; set; }
 
-        [TestMethod]
+        [Test]
         public void TestCalcPlus()
         {
             _commonTestScript.RunTest(@"assert.equal(4, Calc(2, 2, '+'));");
         }
 
-        [TestMethod]
+        [Test]
         public void TestCalcMinus()
         {
             _commonTestScript.RunTest(@"assert.equal(8, Calc(10, 2, '-'));");
         }
 
-        [TestMethod]
+        [Test]
         public void TestCalcDiv()
         {
             _commonTestScript.RunTest(@"assert.equal(5, Calc(10, 2, '/'));");
         }
 
-        [TestMethod]
+        [Test]
         public void TestCalcMult()
         {
             _commonTestScript.RunTest(@"assert.equal(20, Calc(10, 2, '*'));");
