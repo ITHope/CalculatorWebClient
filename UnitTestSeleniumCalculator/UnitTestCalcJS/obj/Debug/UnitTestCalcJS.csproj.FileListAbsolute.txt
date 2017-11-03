@@ -1,0 +1,17 @@
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\UnitTestCalcJS.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\UnitTestCalcJS.pdb
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\JSTest.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\obj\Debug\UnitTestCalcJS.csprojResolveAssemblyReference.cache
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\obj\Debug\UnitTestCalcJS.dll
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\obj\Debug\UnitTestCalcJS.pdb
+E:\CSharpDev\Projects\Calculator\CalculatorJS\UnitTestSeleniumCalculator\UnitTestCalcJS\obj\Debug\UnitTestCalcJS.csproj.CoreCompileInputs.cache

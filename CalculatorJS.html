@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    a <input type="text" id="a"><br />
+    b <input type="text" id="b"><br />
+    op <input type="text" id="op"><br />
+    <input type="button" value=" Result " id = "btnRes" onclick="goCalc()"><br />
+    res <input type="text" id="res"><br />
+    
+    
+    <script type="text/javascript">
+
+        function goCalc()
+        {
+            var a1 = document.getElementById("a");
+            var c = a1.value;
+            var a2 = document.getElementById("b");
+            var e = a2.value;
+            var op = document.getElementById("op");
+            var b = op.value;
+            var d = document.getElementById("res");
+
+            c = +c;
+            e = +e;
+
+            d.value = Calc(c, e, b);
+        };
+
+        function Calc(a1, a2, op)
+        {
+            var res;
+            switch (op)
+            {
+                    case "*":
+                        res = a1 * a2;
+                        break;
+                    case "+":
+                        res = a1 + a2;
+                        break;
+                    case "-":
+                        res = a1 - a2;
+                        break;
+                    case "/":
+                        res = a1 / a2;
+                        break;
+                    default:
+                        res = 0;
+                        break;
+            }
+            return res;
+        };
+    </script>
+
+</body>
+</html>
