@@ -24,7 +24,7 @@ namespace UnitTestSeleniumCalculator
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(30));
+            driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(30));
             driver.Navigate().GoToUrl(this.baseURL);
             driver.FindElementById("a").SendKeys("5");
             driver.FindElementById("b").SendKeys("1");
@@ -41,7 +41,7 @@ namespace UnitTestSeleniumCalculator
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(30));
+            driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(30));
             driver.Navigate().GoToUrl(this.baseURL);
             driver.FindElementById("a").SendKeys("5");
             driver.FindElementById("b").SendKeys("10");
@@ -58,7 +58,7 @@ namespace UnitTestSeleniumCalculator
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(30));
+            driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(30));
             driver.Navigate().GoToUrl(this.baseURL);
             driver.FindElementById("a").SendKeys("15");
             driver.FindElementById("b").SendKeys("6");
@@ -75,7 +75,7 @@ namespace UnitTestSeleniumCalculator
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(30));
+            driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(30));
             driver.Navigate().GoToUrl(this.baseURL);
             driver.FindElementById("a").SendKeys("20");
             driver.FindElementById("b").SendKeys("4");
