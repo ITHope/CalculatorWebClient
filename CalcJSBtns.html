@@ -6,7 +6,6 @@
     <title></title>
 </head>
 <body>
-
   
     <input type="text" id="tbCalc" /><p>
     <input type="button" value="0" id="btn0" onclick="fNum(this)" />
@@ -20,22 +19,18 @@
     <input type="button" value="7" id="btn7" onclick="fNum(this)" />
     <input type="button" value="8" id="btn8" onclick="fNum(this)" />
     <input type="button" value="9" id="btn9" onclick="fNum(this)" />
-	
 <p>
-
     <input type="button" value="+" id="btnPlus" onclick="fOp(this)" />
     <input type="button" value="-" id="btnMinus" onclick="fOp(this)" />
     <input type="button" value="*" id="btnMult" onclick="fOp(this)" />
     <input type="button" value="/" id="btnDiv" onclick="fOp(this)" />
     <input type="button" value="=" id="btnRes" onclick="fOp(this)" />
 
-
     <script type="text/javascript">
 
         var aTxt;
         var bTxt;
         var opStr;
-
 
         function fNum(p)
         {
@@ -49,7 +44,7 @@
                 var aNum = parseInt(aTxt);
                 var bNum = parseInt(tbCalc.value);
                 var oPer = opStr;
-                var res = Calc(aNum, bNum, oPer);
+                var res = CalcN(aNum, bNum, oPer);
                 tbCalc.value = res;
             }
             else
@@ -81,6 +76,17 @@
             }
             return res;
         };
+	    
+	function CalcN(num1, num2, op) {
+		if(op == '+')
+			op = 'p';
+		var req = "a="+num1+"&b="+num2+"&op="+op;
+		var rr = new XMLHttpRequest();
+		rr.open('GET', 'http://localhost:8080?'+req, false);
+		rr.send(null);
+		return rr.responseText;
+	};
+	    
     </script>
 
 </body>
