@@ -75,7 +75,7 @@ namespace UnitTestSeleniumCalculator
             //if (driver == null)
                 driver = MakeDriver();
             obj = new POM(driver);
-            driver.Navigate().GoToUrl(@"C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorJS\CalcJSBtns.html");
+            driver.Navigate().GoToUrl(@"../../../CalcJSBtns.html");
         }
 
         //~UnitTest1()
