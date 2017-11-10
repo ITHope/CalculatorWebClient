@@ -12,7 +12,7 @@ namespace UnitTestSeleniumCalculator
     [TestClass]
     public class UnitTestCalc
     {
-        string baseURL = @"C:\Users\Student\Documents\WizDevCSharp\2017.11.03\CalculatorJS\CalculatorJS.html";
+        string baseURL = @"../../../CalculatorJS.html";
         private RemoteWebDriver driver;
         public TestContext TestContext { get; set; }
        
